@@ -1,5 +1,3 @@
-# ML Pipeline RL Training Task: Advanced Emotion Classification with Automatic Imbalance Detection
-
 ### Problem Statement
 
 You are a machine learning engineer at a fast-growing startup providing emotion detection services for social media platforms. You need to build a robust text classification pipeline with automatic class imbalance detection that can be easily adapted to different datasets. Current ML pipelines load datasets without analyzing class distribution, apply uniform training approaches regardless of data characteristics, and evaluate using accuracy metrics that mask poor performance on rare or underrepresented classes. This results in models that achieve good overall accuracy but completely miss critical classes - causing production failures. The production environment uses mixed hardware (CPU-only and GPU-enabled servers), but no solution adapts model selection to available hardware or automatically handles class imbalance severity. You will build this robust pipeline using the `mteb/emotion` dataset as a test case to demonstrate its capabilities.
